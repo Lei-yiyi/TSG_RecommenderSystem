@@ -10,3 +10,8 @@
 [原理](https://zhuanlan.zhihu.com/p/371405357)  
 [实战](https://github.com/Lei-yiyi/TSG_RecommenderSystem/blob/main/model/DeepFM.ipynb)  
 [论文](https://github.com/Lei-yiyi/TSG_RecommenderSystem/blob/main/paper/DeepFM.pdf)  
+
+## DeepFM
+[原理](https://zhuanlan.zhihu.com/p/427435466)  
+[实战](https://github.com/Lei-yiyi/TSG_RecommenderSystem/blob/main/model/DeepCrossing.py)  
+[论文](https://github.com/Lei-yiyi/TSG_RecommenderSystem/blob/main/paper/DeepCrossing.pdf)  
