@@ -46,13 +46,13 @@ warnings.filterwarnings("ignore")
 
 
 def data_process(data_df, dense_features, sparse_features):
-    # sparse特征填充缺失值
+    # dense特征填充缺失值
     data_df[dense_features] = data_df[dense_features].fillna(0.0)
     # 数值处理
     for f in dense_features:
         data_df[f] = data_df[f].apply(lambda x: np.log(x + 1) if x > -1 else -1)
 
-    # dense特征填充缺失值
+    # sparse特征填充缺失值
     data_df[sparse_features] = data_df[sparse_features].fillna("-1")
     # 类别编码
     for f in sparse_features:
